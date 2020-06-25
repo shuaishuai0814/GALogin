@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GALogin_Example' do
+  pod 'GALogin', :path => '../'
+
+  target 'GALogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
