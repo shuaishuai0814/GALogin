@@ -1,0 +1,6 @@
+framework module Pods_GALogin_Example {
+  umbrella header "Pods-GALogin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

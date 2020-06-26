@@ -1,0 +1,6 @@
+framework module Pods_GALogin_Tests {
+  umbrella header "Pods-GALogin_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

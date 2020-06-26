@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0CF70FC371FA098A68344739 /* Pods_GALogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GALogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4330E7045463E16A807D8FEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4330E7045463E16A807D8FEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		50514FE139465C5A2CFB35F7 /* Pods-GALogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GALogin_Tests.release.xcconfig"; path = "Target Support Files/Pods-GALogin_Tests/Pods-GALogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GALogin_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GALogin_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		6F52FF9CF9D3AC67151D3CFD /* Pods-GALogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GALogin_Example.release.xcconfig"; path = "Target Support Files/Pods-GALogin_Example/Pods-GALogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		888C833C63530565B9662897 /* Pods-GALogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GALogin_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GALogin_Tests/Pods-GALogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9F16D6615DDB58825DCF0192 /* Pods-GALogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GALogin_Example.debug.xcconfig"; path = "Target Support Files/Pods-GALogin_Example/Pods-GALogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E6C4571219677B4D8A422733 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E6C4571219677B4D8A422733 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EEE7CDCB08C77C8BD8471767 /* Pods_GALogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GALogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1BAFEC6AE2BFB4C8ECABF90 /* GALogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GALogin.podspec; path = ../GALogin.podspec; sourceTree = "<group>"; };
+		F1BAFEC6AE2BFB4C8ECABF90 /* GALogin.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GALogin.podspec; path = ../GALogin.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				888C833C63530565B9662897 /* Pods-GALogin_Tests.debug.xcconfig */,
 				50514FE139465C5A2CFB35F7 /* Pods-GALogin_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +208,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = JD;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

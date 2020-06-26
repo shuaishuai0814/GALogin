@@ -1,0 +1,16 @@
+PODS:
+  - GALogin (0.1.0)
+
+DEPENDENCIES:
+  - GALogin (from `../`)
+
+EXTERNAL SOURCES:
+  GALogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GALogin: 2487d141651980c216926aab7eeb5f13695ba772
+
+PODFILE CHECKSUM: e5c22789a0fdb099dbaaaf88148e4b27bf73c80f
+
+COCOAPODS: 1.9.1
