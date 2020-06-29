@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039D1A21A95354B458FE768B80FD24AF /* GALogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F88EEDB06E78AB17FA9CB2BBD411F15 /* GALogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2B925812A06791E6C579ACDA33DB5BC6 /* GALogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A96E96575B082FEE10C8BF118676AD2 /* GALogin-dummy.m */; };
-		5967342124AA130A0011CB84 /* GALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5967342024AA130A0011CB84 /* GALoginViewController.swift */; };
+		039D1A21A95354B458FE768B80FD24AF /* GALogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F028DD8CA9F297F7A3142FF3DC0F75 /* GALogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		370F268AB517AA04A42D5E5D282FC4AE /* GALogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1397B8C8C7BFA13E30ED9002A7FE12E /* GALogin-dummy.m */; };
 		5BAAA261AE840AE63C4E69D56EB7E008 /* Pods-GALogin_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CA057E3AE591C8213AAEEC31C7BD7E /* Pods-GALogin_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715C8015A037DA268E12F1D88E220369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		722D0AB7BA9AFE069081E114A05D4740 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		806DD37542D38327CC463059BEECE91F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		982B6F1D7B810233419290924B49DED0 /* Pods-GALogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8968319443DE1922477CB1CC639E39AD /* Pods-GALogin_Tests-dummy.m */; };
+		9B2998DC96E4750ECD52A6E9A23B592B /* GALoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52A1B85F61D34D6999B9C7007B27A3C /* GALoginViewController.swift */; };
 		A19D62E7B9ED447D3013B97F9DB944CB /* Pods-GALogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B976B36659D9544C50F56AFAFF74FB4 /* Pods-GALogin_Example-dummy.m */; };
 		D464F7C3F98F4E02BDDC848DBD19B34E /* Pods-GALogin_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89DFE0B07C771400957664043A537ED /* Pods-GALogin_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -39,23 +39,27 @@
 /* Begin PBXFileReference section */
 		0EF2BE806057E5EB3EBEEF12FC5D9FC7 /* Pods-GALogin_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GALogin_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0F3E944E280F823535C6387E74E06399 /* Pods-GALogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GALogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		115819484D06DC1D4D158C54C16950A4 /* GALogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GALogin-Info.plist"; sourceTree = "<group>"; };
+		17EB2A69A63EF14C49114ABBA20F9B42 /* GALogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GALogin.debug.xcconfig; sourceTree = "<group>"; };
+		1E39936A80BA3DA2F5A68D4491D3AEBC /* GALogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GALogin.release.xcconfig; sourceTree = "<group>"; };
 		24CA057E3AE591C8213AAEEC31C7BD7E /* Pods-GALogin_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GALogin_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2E008EB2ACF999DD2C9C5F7B2D022D6B /* GALogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GALogin.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5967342024AA130A0011CB84 /* GALoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GALoginViewController.swift; sourceTree = "<group>"; };
+		3690A0C8678A36BBB62D604E5B745DC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		36E43D83EF72CB58C8FA455F799886AF /* GALogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GALogin.modulemap; sourceTree = "<group>"; };
 		5A55EE7155D4AD2EA7A9D667BEB5BD66 /* Pods-GALogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GALogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5B976B36659D9544C50F56AFAFF74FB4 /* Pods-GALogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GALogin_Example-dummy.m"; sourceTree = "<group>"; };
+		62317E11E888E782A459AA7804826765 /* GALogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GALogin-prefix.pch"; sourceTree = "<group>"; };
 		6B02576E76F149F1E8300D8D9E4DFD57 /* Pods-GALogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GALogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F75B4E4906A29DE62CE1EC68DF37C36 /* GALogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GALogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		79FEF5F47161F10E3286AB4B4B73E9E2 /* Pods-GALogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GALogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7A96E96575B082FEE10C8BF118676AD2 /* GALogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GALogin-dummy.m"; sourceTree = "<group>"; };
-		7DE590C2378B4AC5A5797C3BFC190617 /* GALogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GALogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE590C2378B4AC5A5797C3BFC190617 /* GALogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GALogin.framework; path = GALogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F028DD8CA9F297F7A3142FF3DC0F75 /* GALogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GALogin-umbrella.h"; sourceTree = "<group>"; };
+		86D13DC41A0AA33A214F25A1BB8FDBE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8968319443DE1922477CB1CC639E39AD /* Pods-GALogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GALogin_Tests-dummy.m"; sourceTree = "<group>"; };
-		8D23B44FD5599BB0621F3A326B8D89C6 /* GALogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GALogin-prefix.pch"; sourceTree = "<group>"; };
-		8F88EEDB06E78AB17FA9CB2BBD411F15 /* GALogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GALogin-umbrella.h"; sourceTree = "<group>"; };
-		9232343634F83A204B8AC9D9A5C80670 /* Pods_GALogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GALogin_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A82C34A5433E7D135D55F3CBC20DFF0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9232343634F83A204B8AC9D9A5C80670 /* Pods_GALogin_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GALogin_Tests.framework; path = "Pods-GALogin_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A741F90A3FE14505AD38FA28210174 /* GALogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GALogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1397B8C8C7BFA13E30ED9002A7FE12E /* GALogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GALogin-dummy.m"; sourceTree = "<group>"; };
+		A52A1B85F61D34D6999B9C7007B27A3C /* GALoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GALoginViewController.swift; path = GALogin/Classes/GALoginViewController.swift; sourceTree = "<group>"; };
 		A89DFE0B07C771400957664043A537ED /* Pods-GALogin_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GALogin_Example-umbrella.h"; sourceTree = "<group>"; };
 		BACBB988406DA201FB71A1BEDD2C4E7D /* Pods-GALogin_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GALogin_Tests.modulemap"; sourceTree = "<group>"; };
 		C0716AE854DA1112830077EEACFF5E87 /* Pods-GALogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GALogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,12 +67,8 @@
 		C0EE87408A9E626BDF756E1FEBBD5680 /* Pods-GALogin_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GALogin_Example-Info.plist"; sourceTree = "<group>"; };
 		C70970110479AA0D51E8455A457EB309 /* Pods-GALogin_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GALogin_Tests-Info.plist"; sourceTree = "<group>"; };
 		CBD5A882B489EB50E1304838A9DE2C7C /* Pods-GALogin_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GALogin_Example.modulemap"; sourceTree = "<group>"; };
-		CE9697056FFD651FA5920CBDCFA95E94 /* Pods_GALogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GALogin_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D03E9E7F31D5523CC6A553E7AFC25F82 /* GALogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GALogin-Info.plist"; sourceTree = "<group>"; };
-		D1427C0B0270FC4C94E2DB42ADACBC6B /* GALogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GALogin.debug.xcconfig; sourceTree = "<group>"; };
+		CE9697056FFD651FA5920CBDCFA95E94 /* Pods_GALogin_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GALogin_Example.framework; path = "Pods-GALogin_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B6A597BC8B8EBD513CEEFAD1265B8A /* Pods-GALogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GALogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E4A85FF180E9595AD632996BC8FF8F51 /* GALogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GALogin.release.xcconfig; sourceTree = "<group>"; };
-		EEECEF97FD499F5F6F4951D6EE5A40B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FCC159416855C65DCDADC9328E26DE94 /* Pods-GALogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GALogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,19 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CB92D08E9B07AE1B0118758D1B6D262 /* Support Files */ = {
+		0BC8ADB7116DC32BBE9555EDCE5890EF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2E008EB2ACF999DD2C9C5F7B2D022D6B /* GALogin.modulemap */,
-				7A96E96575B082FEE10C8BF118676AD2 /* GALogin-dummy.m */,
-				D03E9E7F31D5523CC6A553E7AFC25F82 /* GALogin-Info.plist */,
-				8D23B44FD5599BB0621F3A326B8D89C6 /* GALogin-prefix.pch */,
-				8F88EEDB06E78AB17FA9CB2BBD411F15 /* GALogin-umbrella.h */,
-				D1427C0B0270FC4C94E2DB42ADACBC6B /* GALogin.debug.xcconfig */,
-				E4A85FF180E9595AD632996BC8FF8F51 /* GALogin.release.xcconfig */,
+				A0A741F90A3FE14505AD38FA28210174 /* GALogin.podspec */,
+				86D13DC41A0AA33A214F25A1BB8FDBE0 /* LICENSE */,
+				3690A0C8678A36BBB62D604E5B745DC3 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GALogin";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2F24A9CB4B775C4B06E62CF2960F93EF /* Targets Support Files */ = {
@@ -122,16 +117,6 @@
 				8EE02103A93539F65F93DAD0BBD51C32 /* Pods-GALogin_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		60C692AE69A1853C3739210781B42E0D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6F75B4E4906A29DE62CE1EC68DF37C36 /* GALogin.podspec */,
-				A82C34A5433E7D135D55F3CBC20DFF0D /* LICENSE */,
-				EEECEF97FD499F5F6F4951D6EE5A40B4 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		8EE02103A93539F65F93DAD0BBD51C32 /* Pods-GALogin_Tests */ = {
@@ -148,17 +133,6 @@
 			);
 			name = "Pods-GALogin_Tests";
 			path = "Target Support Files/Pods-GALogin_Tests";
-			sourceTree = "<group>";
-		};
-		9D15AF30921A7C29B0862EC8DAB0C1ED /* GALogin */ = {
-			isa = PBXGroup;
-			children = (
-				60C692AE69A1853C3739210781B42E0D /* Pod */,
-				2CB92D08E9B07AE1B0118758D1B6D262 /* Support Files */,
-				5967342024AA130A0011CB84 /* GALoginViewController.swift */,
-			);
-			name = GALogin;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		A07CE11C62C94A9C66961641D7322D7F /* Pods-GALogin_Example */ = {
@@ -181,7 +155,7 @@
 		B210667073A195CF4D0712C041871C2E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D15AF30921A7C29B0862EC8DAB0C1ED /* GALogin */,
+				E9A0304621112EE02531F2A3740F99CA /* GALogin */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -221,6 +195,32 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A0304621112EE02531F2A3740F99CA /* GALogin */ = {
+			isa = PBXGroup;
+			children = (
+				A52A1B85F61D34D6999B9C7007B27A3C /* GALoginViewController.swift */,
+				0BC8ADB7116DC32BBE9555EDCE5890EF /* Pod */,
+				F4D9AA22A23F19B3C92E7B4BFDB3E592 /* Support Files */,
+			);
+			name = GALogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F4D9AA22A23F19B3C92E7B4BFDB3E592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E43D83EF72CB58C8FA455F799886AF /* GALogin.modulemap */,
+				A1397B8C8C7BFA13E30ED9002A7FE12E /* GALogin-dummy.m */,
+				115819484D06DC1D4D158C54C16950A4 /* GALogin-Info.plist */,
+				62317E11E888E782A459AA7804826765 /* GALogin-prefix.pch */,
+				83F028DD8CA9F297F7A3142FF3DC0F75 /* GALogin-umbrella.h */,
+				17EB2A69A63EF14C49114ABBA20F9B42 /* GALogin.debug.xcconfig */,
+				1E39936A80BA3DA2F5A68D4491D3AEBC /* GALogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GALogin";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +277,7 @@
 			buildConfigurationList = DA2B7E5115B67203093B69A71A4DA4B6 /* Build configuration list for PBXNativeTarget "GALogin" */;
 			buildPhases = (
 				8A6B558FF9490F0B0BAC9557F6A0869F /* Headers */,
-				12E80EC58D0DB678FE2E7E1EC2207DB9 /* Sources */,
+				8557959DD5335304E16E187E2A6D51ED /* Sources */,
 				C07F6DA785EE2FBC449E3491229DDF2C /* Frameworks */,
 				51EE384B66C0C2085309FD7A329A926A /* Resources */,
 			);
@@ -317,11 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					B1388A81DFCE8359275CA04157F29C8F = {
-						LastSwiftMigration = 1150;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,15 +363,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12E80EC58D0DB678FE2E7E1EC2207DB9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5967342124AA130A0011CB84 /* GALoginViewController.swift in Sources */,
-				2B925812A06791E6C579ACDA33DB5BC6 /* GALogin-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		31247A16BB5582A70CCC748CCC2623EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,6 +376,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19D62E7B9ED447D3013B97F9DB944CB /* Pods-GALogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8557959DD5335304E16E187E2A6D51ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370F268AB517AA04A42D5E5D282FC4AE /* GALogin-dummy.m in Sources */,
+				9B2998DC96E4750ECD52A6E9A23B592B /* GALoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,9 +408,8 @@
 /* Begin XCBuildConfiguration section */
 		0C2B67926604219AD62FB1FC8A84A48F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1427C0B0270FC4C94E2DB42ADACBC6B /* GALogin.debug.xcconfig */;
+			baseConfigurationReference = 17EB2A69A63EF14C49114ABBA20F9B42 /* GALogin.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -436,7 +430,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,7 +556,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -571,9 +565,8 @@
 		};
 		B207DB804310F8D866E047FD58134721 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4A85FF180E9595AD632996BC8FF8F51 /* GALogin.release.xcconfig */;
+			baseConfigurationReference = 1E39936A80BA3DA2F5A68D4491D3AEBC /* GALogin.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
